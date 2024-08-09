@@ -25,50 +25,7 @@ body{
     margin-top: 20px;
 }
 
-#slideshow{
-    height: 140px;
-    background-color: rgb(0, 239, 0);
-    border-radius: 20px;
-}
-
-#category_box{
-    height: 100px;
-    /* background-color: #f37e7e; */
-    display: flex;
-    justify-content: center;
-    align-content: space-evenly;
-}
-
-.item{
-    height: 80px;
-    width: 65px;
-    margin: 8px 4px 8px 4px;
-    border: 2px solid rgb(0, 207, 0);
-    border-radius: 10px;
-}
-
-#footer{
-    height: 60px;
-    width: 100%;
-    background-color: rgb(0, 239, 0);
-    border-top: 15px solid white;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    z-index: 10;
-}
-
-#best_farmers{
-    height: 250px;
-}
-
-.farmer{
-    height: 50px;
-    background-color: rgb(0, 239, 0);
-    border-radius: 10px;
-    margin: 5px;
-}
-
+/* Slideshow */
 .slideshow-container {
     max-width: 1000px;
     position: relative;
@@ -110,18 +67,128 @@ body{
     background-color: #717171;
 }
 
-/*Items*/
+/* Category Items*/
 
-.rice{
+#category_box{
+    height: 100px;
+    /* background-color: #f37e7e; */
+    display: flex;
+    justify-content: center;
+    align-content: space-evenly;
+}
+
+.item{
+    height: 90px;
+    width: 75px;
+    margin: 8px 4px 8px 4px;
+    border: 2px solid rgb(0, 207, 0);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#rice_logo{
     background-image: url("https://www.health.com/thmb/a8GxwWgmB5KpQW8SfW6VA7UFwaI=/722x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1734160670-0157c2daf8e841d6a783b38aedc51aa8.jpg");
     background-size: cover;
     background-position: -20px;
+    height: 53px;
+    width: 53px;
+    border-radius: 50%;
 }
 
-.vegetables{
+#rice, #veggies{
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+#veggies_logo{
     background-image: url("https://www.daysoftheyear.com/wp-content/uploads/eat-your-vegetables-day1-scaled.jpg");
     background-size: cover;
     background-position: -25px;
+    height: 53px;
+    width: 53px;
+    border-radius: 50%;
+}
+
+#fruits_logo{
+    background-image: url("https://www.healthyeating.org/images/default-source/home-0.0/nutrition-topics-2.0/general-nutrition-wellness/2-2-2-3foodgroups_fruits_detailfeature.jpg?sfvrsn=64942d53_4");
+    background-size: cover;
+    background-position: -25px;
+    height: 53px;
+    width: 53px;
+    border-radius: 50%;
+}
+
+#grains_logo{
+    background-image: url("https://www.isaaa.org/kc/cropbiotechupdate/files/images/727202235819AM.jpg");
+    background-size: cover;
+    background-position: -25px;
+    height: 53px;
+    width: 53px;
+    border-radius: 50%;
+}
+
+
+/* Best farmers */
+#best_farmers{
+    height: 250px;
+}
+
+.farmer{
+    height: 50px;
+    background-color: rgb(0, 239, 0);
+    border-radius: 10px;
+    margin: 5px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+#farmer1, #farmer2, #farmer3, #farmer4{
+    height: 45px;
+    width: 45px;
+    margin-left: 10px;
+    border: 2px solid;
+    border-radius: 50%;
+    background-image: url("https://t3.ftcdn.net/jpg/03/76/16/72/360_F_376167286_60oQi8n8Ztj8FObqanyrTREx6BHKOXJL.jpg");
+    background-size: 90px;
+    background-position: 0px -10px;
+}
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+
+#footer{
+    height: 40px;
+    width: 100%;
+    background-color: white;
+    border-top: 2px solid rgb(0, 239, 0);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 10;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+#home, #fav, #cart, #profile{
+    height: 20px;
+    margin: 10px;
+}
+
+#cart{
+    height: 26px;
 }
 
 
