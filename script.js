@@ -15,5 +15,21 @@ function showSlides() {
     }
     slides[slideIndex-1].style.display = "block";
     dots[slideIndex-1].className += " active";
-    setTimeout(showSlides, 3000); // Change image every 3 seconds
+    setTimeout(showSlides, 3000);
+}
+
+function rice(){
+    window.location.href = './rice/rice.html';
+}
+
+function veggies(){
+    window.location.href = './veggies/veggies.html';
+}
+
+function fruits(){
+    window.location.href = './fruits/fruits.html';
+}
+
+function grains(){
+    window.location.href = './grains/grains.html';
 }
