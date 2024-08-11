@@ -1,5 +1,5 @@
 function back_btn(){
-    window.location.href = '/index.html';
+    window.location.href = 'index.html';
 }
 
 let like = document.querySelectorAll('.like');
