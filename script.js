@@ -19,17 +19,17 @@ function showSlides() {
 }
 
 function rice(){
-    window.location.href = './rice/rice.html';
+    window.location.href = 'rice.html';
 }
 
 function veggies(){
-    window.location.href = './veggies/veggies.html';
+    window.location.href = 'veggies.html';
 }
 
 function fruits(){
-    window.location.href = './fruits/fruits.html';
+    window.location.href = 'fruits.html';
 }
 
 function grains(){
-    window.location.href = './grains/grains.html';
+    window.location.href = 'grains.html';
 }
