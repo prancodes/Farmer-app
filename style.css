@@ -122,7 +122,7 @@ body{
     height: 90px;
     width: 75px;
     margin: 8px 4px 8px 4px;
-    border: 2px solid rgb(0, 207, 0);
+    border: 1px solid rgb(0, 207, 0);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
